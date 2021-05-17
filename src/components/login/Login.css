@@ -1,0 +1,30 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login > img {
+  margin-top: 20vh;
+  max-height: 40vh;
+  max-width: 30%;
+}
+
+.login > a {
+  color: whitesmoke;
+  border: 1px solid var(--main-theame-color);
+  padding: 10px;
+  margin-top: 40px;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: -2px 1px 5px 1px rgba(255, 255, 255, 0.1);
+  border-radius: 99px;
+  text-decoration: none;
+}
+
+.login > a:hover {
+  color: var(--main-background-color);
+  background-color: var(--main-theame-color);
+  transition: color 0.3s ease-out;
+  transition: background-color 0.2s ease-in;
+}
